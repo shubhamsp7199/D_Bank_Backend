@@ -1,0 +1,26 @@
+2022-06-23 16:46:32.564  INFO 26320 --- [main] com.cg.BankApp                           : Starting BankApp on LIN59019989 with PID 26320 (C:\Users\spati163\Intellij workspace\BankProject\target\classes started by spati163 in C:\Users\spati163\Intellij workspace\BankProject)
+2022-06-23 16:46:32.586  INFO 26320 --- [main] com.cg.BankApp                           : No active profile set, falling back to default profiles: default
+2022-06-23 16:46:34.085  INFO 26320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-23 16:46:34.252  INFO 26320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 2 JPA repository interfaces.
+2022-06-23 16:46:35.654  INFO 26320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-06-23 16:46:35.671  INFO 26320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-23 16:46:35.672  INFO 26320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-23 16:46:35.974  INFO 26320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-23 16:46:35.974  INFO 26320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3235 ms
+2022-06-23 16:46:36.340  INFO 26320 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-23 16:46:36.457  INFO 26320 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-06-23 16:46:36.759  INFO 26320 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-23 16:46:36.946  INFO 26320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-23 16:46:37.511  INFO 26320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-23 16:46:37.545  INFO 26320 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-23 16:46:38.759  INFO 26320 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-23 16:46:38.776  INFO 26320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-23 16:46:39.541  WARN 26320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-23 16:46:40.242  INFO 26320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-06-23 16:46:40.270  INFO 26320 --- [main] com.cg.BankApp                           : Started BankApp in 8.387 seconds (JVM running for 9.422)
+2022-06-23 17:23:12.221  INFO 26320 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-23 17:23:12.222  INFO 26320 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-23 17:23:12.223  INFO 26320 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-23 18:07:18.479  INFO 26320 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-23 18:07:18.486  INFO 26320 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-23 18:07:18.503  INFO 26320 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
